@@ -1,10 +1,16 @@
-# This file is just for testing purposes.
+# Configuration to Flash Blackpill Controller with QMK
+BOOTLOADER = stm32-dfu
+BOARD = GENERIC_STM32_F411XE
+SERIAL_DRIVER = usart
 
-LTO_ENABLE = yes            # Link Time Optimization enabled
-BOOTMAGIC_ENABLE = no       # Enable Bootmagic Lite
-MOUSEKEY_ENABLE = yes       # Mouse keys
-EXTRAKEY_ENABLE = yes       # Audio control and System control
-CONSOLE_ENABLE = no         # Console for debug
-COMMAND_ENABLE = no         # Commands for debug and configuration
-NKRO_ENABLE = no            # N-Key Rollover
-SWAP_HANDS_ENABLE = no      # Enable one-hand typing
+# Uncomment The Following Line to Enable VIA (NOT TESTED YET FOR THIS KEYBOARD!!!)
+# VIA_ENABLE = yes
+
+LTO_ENABLE = yes            # Enable Link Time Optimization
+BOOTMAGIC_ENABLE = yes      # Enable Bootmagic Lite
+MOUSEKEY_ENABLE = yes       # Enable Mouse keys
+EXTRAKEY_ENABLE = yes       # Enable Audio Control and System Control (Media Keys)
+CONSOLE_ENABLE = no         # Console for Debug
+COMMAND_ENABLE = no         # Commands for Debug and Configuration
+NKRO_ENABLE = no            # Enable N-Key Rollover
+SWAP_HANDS_ENABLE = no      # Enable One-Hand Typing
