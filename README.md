@@ -1,6 +1,8 @@
 # kaly42-custom-keymap
 This is my own keymap for the Kaly42 keyboard that uses QMK Firmware.
 
+### Before attempting to flash this keymap, be sure your are using the development branch!
+
 How to use my keymap:
 
 1. Install QMK for your OS
