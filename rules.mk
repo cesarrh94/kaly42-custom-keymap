@@ -3,9 +3,6 @@ BOOTLOADER = stm32-dfu
 BOARD = GENERIC_STM32_F411XE
 SERIAL_DRIVER = usart
 
-# Uncomment The Following Line to Enable VIA (NOT TESTED YET FOR THIS KEYBOARD!!!)
-# VIA_ENABLE = yes
-
 LTO_ENABLE = yes            # Enable Link Time Optimization
 BOOTMAGIC_ENABLE = yes      # Enable Bootmagic Lite
 MOUSEKEY_ENABLE = yes       # Enable Mouse keys
