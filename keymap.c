@@ -61,9 +61,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
     [_LOWER] = LAYOUT_split_3x6_3(
         _______,    KC_1,    KC_2,    KC_3,    KC_4,    KC_5,                               KC_6,    KC_7,    KC_8,    KC_9,    KC_0, _______,
-        _______, XXXXXXX, KC_MUTE, KC_VOLD, KC_VOLU, XXXXXXX,                            XXXXXXX, XXXXXXX,   KC_UP, XXXXXXX, XXXXXXX, XXXXXXX,
+        KC_CAPS, XXXXXXX, KC_MUTE, KC_VOLD, KC_VOLU, XXXXXXX,                            XXXXXXX, XXXXXXX,   KC_UP, XXXXXXX, XXXXXXX, XXXXXXX,
          KC_GRV, XXXXXXX, KC_MPLY, KC_MPRV, KC_MNXT, XXXXXXX,                            XXXXXXX, KC_LEFT, KC_DOWN, KC_RGHT, XXXXXXX, KC_BSLS,
-                                            XXXXXXX, _______, _______,          _______, XXXXXXX, XXXXXXX
+                                            XXXXXXX, _______, _______,          KC_BSPC, XXXXXXX, XXXXXXX
     ),
 
      /* _RAISE Layer Keymap - Function, Arrow & Navigation keys.
