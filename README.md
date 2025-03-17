@@ -1,7 +1,7 @@
 # kaly42-custom-keymap
 This is my own keymap for the Kaly42 keyboard that uses QMK Firmware.
 
-### Before attempting to flash this keymap, be sure your are using the development branch!
+### Before attempting to flash the keyboard, You need to know there are 2 versions of the firmware: on the MAIN branch, it's the "default" firmware/keymap and on the DEVELOPMENT branch, it's an implementation of the homerow mods keymap.
 
 How to use my keymap:
 
